@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KK_DependentsApp", "KK_DependentsApp\KK_DependentsApp.csproj", "{8A451F5E-3957-4B22-A345-F60572E44C0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A451F5E-3957-4B22-A345-F60572E44C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A451F5E-3957-4B22-A345-F60572E44C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A451F5E-3957-4B22-A345-F60572E44C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A451F5E-3957-4B22-A345-F60572E44C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA589797-D085-4565-BC92-577187CB7CBE}
+	EndGlobalSection
+EndGlobal

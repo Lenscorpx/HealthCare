@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A451F5E-3957-4B22-A345-F60572E44C0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KK_DependentsApp</RootNamespace>
+    <AssemblyName>KK_DependentsApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\KK_DependentsApp.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_reg.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>KK_DependentsApp.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="LiveCharts">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow">
+      <HintPath>..\..\..\..\Desktop\CodeLabs\Mes Frameworks\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code_Library\Data_Repository.cs" />
+    <Compile Include="Code_Library\Params.cs" />
+    <Compile Include="Code_Library\Sexes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI_Library\UI_Frames\frm_apropos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_apropos.Designer.cs">
+      <DependentUpon>frm_apropos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_dashboard.Designer.cs">
+      <DependentUpon>frm_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_agents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_agents.Designer.cs">
+      <DependentUpon>frm_liste_agents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_agents_dependants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_agents_dependants.Designer.cs">
+      <DependentUpon>frm_liste_agents_dependants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_dependants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_dependants.Designer.cs">
+      <DependentUpon>frm_liste_dependants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_structures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_liste_structures.Designer.cs">
+      <DependentUpon>frm_liste_structures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_menu.Designer.cs">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_new_auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_new_auth.Designer.cs">
+      <DependentUpon>frm_new_auth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_params.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_params.Designer.cs">
+      <DependentUpon>frm_params.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_pwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_pwd.Designer.cs">
+      <DependentUpon>frm_pwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\frm_splash.Designer.cs">
+      <DependentUpon>frm_splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\rpt_liste_agents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\rpt_liste_agents.Designer.cs">
+      <DependentUpon>rpt_liste_agents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\rpt_liste_agents_dependants.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\rpt_liste_agents_dependants.Designer.cs">
+      <DependentUpon>rpt_liste_agents_dependants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\rpt_liste_structures.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\rpt_liste_structures.Designer.cs">
+      <DependentUpon>rpt_liste_structures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_Frames\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_accueil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_accueil.Designer.cs">
+      <DependentUpon>uc_accueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_accueil_params.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_accueil_params.Designer.cs">
+      <DependentUpon>uc_accueil_params.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_affectation_structure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_affectation_structure.Designer.cs">
+      <DependentUpon>uc_affectation_structure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_agent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_agent.Designer.cs">
+      <DependentUpon>uc_agent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_apropos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_apropos.Designer.cs">
+      <DependentUpon>uc_apropos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_dashboard.Designer.cs">
+      <DependentUpon>uc_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_dependants.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_dependants.Designer.cs">
+      <DependentUpon>uc_dependants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_liens.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_liens.Designer.cs">
+      <DependentUpon>uc_liens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_rapports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_rapports.Designer.cs">
+      <DependentUpon>uc_rapports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_recherche_agent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_recherche_agent.Designer.cs">
+      <DependentUpon>uc_recherche_agent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_recherche_dependants.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_recherche_dependants.Designer.cs">
+      <DependentUpon>uc_recherche_dependants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_recherche_structure_dependant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_recherche_structure_dependant.Designer.cs">
+      <DependentUpon>uc_recherche_structure_dependant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_stats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_stats.Designer.cs">
+      <DependentUpon>uc_stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_structure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_structure.Designer.cs">
+      <DependentUpon>uc_structure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_villes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI_Library\UI_UserControls\uc_villes.Designer.cs">
+      <DependentUpon>uc_villes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_apropos.resx">
+      <DependentUpon>frm_apropos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_dashboard.resx">
+      <DependentUpon>frm_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_liste_agents.resx">
+      <DependentUpon>frm_liste_agents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_liste_agents_dependants.resx">
+      <DependentUpon>frm_liste_agents_dependants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_liste_dependants.resx">
+      <DependentUpon>frm_liste_dependants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_liste_structures.resx">
+      <DependentUpon>frm_liste_structures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_menu.resx">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_new_auth.resx">
+      <DependentUpon>frm_new_auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_params.resx">
+      <DependentUpon>frm_params.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_pwd.resx">
+      <DependentUpon>frm_pwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\frm_splash.resx">
+      <DependentUpon>frm_splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\rpt_liste_agents.resx">
+      <DependentUpon>rpt_liste_agents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\rpt_liste_agents_dependants.resx">
+      <DependentUpon>rpt_liste_agents_dependants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\rpt_liste_structures.resx">
+      <DependentUpon>rpt_liste_structures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_Frames\XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_accueil.resx">
+      <DependentUpon>uc_accueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_accueil_params.resx">
+      <DependentUpon>uc_accueil_params.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_affectation_structure.resx">
+      <DependentUpon>uc_affectation_structure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_agent.resx">
+      <DependentUpon>uc_agent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_apropos.resx">
+      <DependentUpon>uc_apropos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_dashboard.resx">
+      <DependentUpon>uc_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_dependants.resx">
+      <DependentUpon>uc_dependants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_liens.resx">
+      <DependentUpon>uc_liens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_rapports.resx">
+      <DependentUpon>uc_rapports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_recherche_agent.resx">
+      <DependentUpon>uc_recherche_agent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_recherche_dependants.resx">
+      <DependentUpon>uc_recherche_dependants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_recherche_structure_dependant.resx">
+      <DependentUpon>uc_recherche_structure_dependant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_stats.resx">
+      <DependentUpon>uc_stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_structure.resx">
+      <DependentUpon>uc_structure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Library\UI_UserControls\uc_villes.resx">
+      <DependentUpon>uc_villes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\er.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07379228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_335918.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\175960-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46698.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25089-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldwide_location-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world_map-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cb-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_principal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_458523.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_MG_0204.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5d8fe1f3.ico" />
+    <Content Include="KK.ico" />
+    <Content Include="logo_reg.ico" />
+    <None Include="Resources\logo_reg2.png" />
+    <None Include="Resources\logo_reg1.png" />
+    <None Include="Resources\logo_reg.png" />
+    <None Include="Resources\healthcare.png" />
+    <None Include="Resources\data_backup-512.png" />
+    <None Include="Resources\seo_29-512.png" />
+    <None Include="Resources\power-button-hi.png" />
+    <None Include="Resources\data_protection-512.png" />
+    <None Include="Resources\cancel-512.png" />
+    <None Include="Resources\password1-512.png" />
+    <None Include="Resources\password2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UI_Library\UI_Reports\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

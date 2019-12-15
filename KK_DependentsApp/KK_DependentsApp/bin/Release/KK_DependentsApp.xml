@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KK_DependentsApp</name>
+    </assembly>
+    <members>
+        <member name="M:KK_DependentsApp.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_apropos.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_apropos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_apropos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_dashboard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_dashboard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_dashboard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_agents.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_agents.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_agents.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_agents_dependants.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_agents_dependants.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_agents_dependants.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_dependants.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_dependants.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_dependants.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_structures.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_structures.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_liste_structures.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_menu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_menu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_menu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_new_auth.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_new_auth.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_new_auth.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_params.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_params.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_params.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_pwd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_pwd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_pwd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.frm_splash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_splash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.frm_splash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_agents.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_agents.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_agents.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_agents_dependants.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_agents_dependants.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_agents_dependants.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_structures.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_structures.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.rpt_liste_structures.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_Frames.XtraReport1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.XtraReport1.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_Frames.XtraReport1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_accueil.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_accueil.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_accueil.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_accueil_params.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_accueil_params.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_accueil_params.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_affectation_structure.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_affectation_structure.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_affectation_structure.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_agent.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_agent.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_agent.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_apropos.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_apropos.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_apropos.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_dashboard.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_dashboard.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_dashboard.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_dependants.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_dependants.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_dependants.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_liens.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_liens.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_liens.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_rapports.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_rapports.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_rapports.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_agent.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_agent.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_agent.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_dependants.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_dependants.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_dependants.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_structure_dependant.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_structure_dependant.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_recherche_structure_dependant.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_stats.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_stats.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_stats.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_structure.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_structure.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_structure.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KK_DependentsApp.UI_Library.UI_UserControls.uc_villes.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_villes.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KK_DependentsApp.UI_Library.UI_UserControls.uc_villes.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:KK_DependentsApp.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources._07379228">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources._175960_200">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources._25089_200">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources._46698">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources._MG_0204">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.cancel_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.Capture">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.card">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.cb_04">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.data_backup_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.data_protection_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.er">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.healthcare">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.hospital_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.img_335918">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.img_458523">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.KK">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.link_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.logo_principal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.logo_reg">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.logo_reg1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.logo_reg2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.password1_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.password2_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.power_button_hi">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.report_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.seo_29_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.settings_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.world_map_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:KK_DependentsApp.Properties.Resources.worldwide_location_512">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
